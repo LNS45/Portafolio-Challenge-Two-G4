@@ -1,0 +1,31 @@
+:root{
+    /*Tonalidades de Verde*/
+    --fondo-verde-claro: #48EFB7;
+    --fondo-verde-medio: #14C886;
+    --fondo-verde-semioscuro: #04AA69;
+    --fondo-verde-oscuro: #038C54;
+
+    /*Tonalidades de Verde Oscuro*/
+    --fondo-verde_oscuro-claro: #2C6067;
+    --fondo-verde-medio: #1B4951;
+    --fondo-verde-semioscuro: #0D3841;
+    --fondo-verde-oscuro: #032D37;
+
+    /*Fondo Gradiente*/
+    --fondo-claro: #26de87;
+    --fondo-medio: #1da36d;
+    --fondo-semi_oscuro: #106c53;
+    --fondo-oscuro: #01393a;
+
+    /*Fuentes*/
+    --fuente-clara: #FFFFFF;
+    --fuente-semi_oscura: #4A5E74;
+    --fuente-oscura: #29384E;
+
+}
+
+body{
+    width: 100vh;
+    height: 100vh;
+    background-image: linear-gradient(180deg, #01393a,  #106c53, #1da36d, #26de87);
+}

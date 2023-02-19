@@ -17,11 +17,14 @@
     --fondo-semi_oscuro: #106c53;
     --fondo-oscuro: #01393a;
 
-    /*Fuentes*/
+    /*Color de Fuentes*/
     --fuente-clara: #FFFFFF;
     --fuente-semi_oscura: #4A5E74;
     --fuente-oscura: #29384E;
 
+    /*Fuentes*/
+    --merri: 'Merriweather Sans', sans-serif;;
+    --source: 'Source Sans Pro', sans-serif;;
 }
 
 body{

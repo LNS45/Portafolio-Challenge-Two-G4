@@ -10,7 +10,7 @@
     --fondo-verde-medio: #1B4951;
     --fondo-verde-semioscuro: #0D3841;
     --fondo-verde-oscuro: #032D37;
-    
+
     /*Fondo Gradiente*/
     --fondo-claro: #26de87;
     --fondo-medio: #1da36d;
@@ -29,7 +29,17 @@
 
 body{
     width: 100%;
-    height: 100%;
-    
+    height: 900px;
+    background: linear-gradient(180deg, #01393a,  #106c53, #1da36d, #26de87);
+    z-index: 2;
 }
+::-webkit-scrollbar{
+    width: 1rem;
+    background-color: var(--fondo-oscuro);
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(var(--fondo-oscuro), var(--fondo-medio), var(--fondo-medio), var(--fondo-oscuro));
+    border-radius: 30px;
+}
+
 /*background-image: linear-gradient(180deg, #01393a,  #106c53, #1da36d, #26de87);*/

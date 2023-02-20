@@ -1,3 +1,5 @@
 .menu__list{
     display: flex;
+    width: 40rem;
+    justify-content: space-between;
 }

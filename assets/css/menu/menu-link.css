@@ -2,3 +2,6 @@
     color: var(--fuente-clara);
     text-decoration: none;
 }
+.resaltado{
+    color: #f8f8f8;
+}

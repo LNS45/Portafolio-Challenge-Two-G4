@@ -19,12 +19,16 @@
 
     /*Color de Fuentes*/
     --fuente-clara: #FFFFFF;
+    --fuente-resaltada: #26de87;
     --fuente-semi_oscura: #4A5E74;
     --fuente-oscura: #29384E;
 
     /*Fuentes*/
-    --merri: 'Merriweather Sans', sans-serif;;
-    --source: 'Source Sans Pro', sans-serif;;
+    --merri: 'Merriweather Sans', sans-serif;
+    --source: 'Source Sans Pro', sans-serif;
+
+    /*Sombras de texto*/
+    --sombra-resalto: 2px 4px 3px rgba(0,0,0,0.3);
 }
 
 body{
@@ -32,6 +36,7 @@ body{
     height: 900px;
     background: linear-gradient(180deg, #01393a,  #106c53, #1da36d, #26de87);
     z-index: 2;
+    font-family: var(--source);
 }
 ::-webkit-scrollbar{
     width: 1rem;

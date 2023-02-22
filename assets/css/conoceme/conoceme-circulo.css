@@ -1,3 +1,9 @@
 .conoceme__circulo{
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    height: 270px;
+    background: url(/assets/images/fondo-circulo.gif);
+    border-radius: 100% ;
 }

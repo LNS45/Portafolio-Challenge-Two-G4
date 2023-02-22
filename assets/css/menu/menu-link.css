@@ -1,7 +1,8 @@
 .menu__link{
     color: var(--fuente-clara);
     text-decoration: none;
+    text-shadow: var(--sombra-resalto);
 }
 .resaltado{
-    color: #f8f8f8;
+    color: var(--fuente-resaltada);
 }

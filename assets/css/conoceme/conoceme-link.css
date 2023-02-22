@@ -1,4 +1,6 @@
 .conoceme__link{
-    color: white;
+    display: flex;
+    align-items: center;
+    color: var(--fuente-clara);
     text-decoration: none;
 }

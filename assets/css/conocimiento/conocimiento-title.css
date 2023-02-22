@@ -1,0 +1,6 @@
+.conocimiento__title{
+    margin: 50px 0;
+    font-size: 35px;
+    color: var(--fuente-resaltada);
+    text-shadow: var(--sombra-resalto);
+}

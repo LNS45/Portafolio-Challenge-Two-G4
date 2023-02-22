@@ -1,0 +1,7 @@
+.skills__contenedor{
+    width: 120px;
+    height: 120px;
+    margin: 0 40px;
+    background-color: red;
+    border-radius: 15px;
+}

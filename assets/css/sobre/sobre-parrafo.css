@@ -1,0 +1,6 @@
+.sobre__parrafo{
+    width: 700px;
+    font-size: 20px;
+    color: var(--fuente-clara);
+    text-shadow: var(--sombra-resalto);
+}

@@ -1,0 +1,5 @@
+.sobre__title{
+    font-size: 35px;
+    color: var(--fuente-resaltada);
+    text-shadow: var(--sombra-resalto);
+}

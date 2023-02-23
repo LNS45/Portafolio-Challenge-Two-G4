@@ -37,7 +37,6 @@ body{
     font-family: var(--source);
 }
 main{
-    background: linear-gradient(0deg, #11ce7e, #1f9b6a, #1f6b55,#1f6b55, #173f41);
     box-shadow: rgba(50, 50, 93, 0.2) 0px 30px 60px 5px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px 2px inset;
 
 }

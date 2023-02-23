@@ -1,0 +1,12 @@
+.conocimiento__contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 150px;
+    height: 150px;
+    margin: 0 40px 30px 40px;
+    background: linear-gradient(180deg, #1f9b6a, #1f6b55, #173f41);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+}

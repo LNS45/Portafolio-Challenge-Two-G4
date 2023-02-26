@@ -44,6 +44,17 @@
     <link rel="stylesheet" href="/assets/css/formacion/formacion-imagen.css">
     <link rel="stylesheet" href="/assets/css/formacion/formacion-subtitulo.css">
     <link rel="stylesheet" href="/assets/css/formacion/formacion-fecha.css">
+    <link rel="stylesheet" href="/assets/css/experiencia/experiencia.css">
+    <link rel="stylesheet" href="/assets/css/experiencia/experiencia-titulo.css">
+    <link rel="stylesheet" href="/assets/css/experiencia/experiencia-content.css">
+    <link rel="stylesheet" href="/assets/css/experiencia/experiencia-contenedor.css">
+    <link rel="stylesheet" href="/assets/css/experiencia/experiencia-imagen.css">
+    <link rel="stylesheet" href="/assets/css/experiencia/experiencia-proyecto.css">
+    <link rel="stylesheet" href="/assets/css/experiencia/experiencia-origen.css">
+    <link rel="stylesheet" href="/assets/css/experiencia/experiencia-boton.css">
+    <link rel="stylesheet" href="/assets/css/experiencia/experiencia-tecnologias.css">
+    <link rel="stylesheet" href="/assets/css/experiencia/experiencia-tecnologiasList.css">
+    <link rel="stylesheet" href="/assets/css/experiencia/experiencia-tecnologiasImagen.css">
     <title>Mi Portafolio | Front-End </title>
 </head>
 <body>
@@ -95,6 +106,18 @@
                     <img src="/assets/icons/html5-logo.png" alt="icono de html 5" class="skills__imagen">
                     <span class="skills__title">HTML 5</span>
                 </div>
+                <div class="conocimiento__contenedor">
+                    <img src="/assets/icons/mysql-logo.png" alt="icono de mysql" class="skills__imagen">
+                    <span class="skills__title">MySQL</span>
+                </div>
+                <div class="conocimiento__contenedor">
+                    <img src="/assets/icons/figma-logo.png" alt="icono de figma" class="skills__imagen">
+                    <span class="skills__title">Figma</span>
+                </div>
+                <div class="conocimiento__contenedor">
+                    <img src="/assets/icons/trello-logo.png" alt="icono de trello" class="skills__imagen">
+                    <span class="skills__title">Trello</span>
+                </div>
             </div>
             <h2 class="conocimiento__title">Hobbies</h2>
             <div class="hobbies">
@@ -130,11 +153,64 @@
                     <span class="formacion__subtitulo">Formación Front-End</span>
                     <span class="formacion__fecha">(Diciembre 2022) - En curso | Oracle & Alura LATAM</span>
                 </li>
+                <li class="formacion__item">
+                    <img src="/assets/images/alura-cursos-logo.png" alt="Logo de cursos de alura" class="formacion__imagen">
+                    <span class="formacion__subtitulo">Formación Business Agility</span>
+                    <span class="formacion__fecha">(Febrero 2023) - Finalizado | Oracle & Alura LATAM</span>
+                </li>
+                <li class="formacion__item">
+                    <img src="/assets/images/alura-cursos-logo.png" alt="Logo de cursos de alura" class="formacion__imagen">
+                    <span class="formacion__subtitulo">Formación Desarrollo Personal</span>
+                    <span class="formacion__fecha">(Diciembre 2022) - Finalizado | Oracle & Alura LATAM</span>
+                </li>
             </ul>
-
         </section>
-    </main>
+        <section class="experiencia">
+            <h2 class="experiencia__titulo">Experiencia Profesional</h2>
 
+            <div class="experiencia__content">
+                <img src="/assets/images/Captura-Encriptador.png" alt="Captura del encriptador" class="experiencia__imagen">
+
+                <div>
+                    <div class="experiencia__contenedor">
+                        <span class="experiencia__proyecto">Encriptador de Texto</span>
+                        <span class="experiencia__origen">Challenge Oracle & Alura</span>
+                        <button class="experiencia__boton" onclick="location.href='https://github.com/LNS45/Encriptador-de-Textos'">Repositorio</button>
+                        <button class="experiencia__boton"onclick="location.href='https://lns45.github.io/Encriptador-de-Textos/'">Ver demo</button>
+                    </div>
+                    <div class="experiencia__contenedor experiencia__tecnologias">
+                        <span class="experiencia__proyecto">Desarrollado con:</span>
+                        <ul class="experiencia__tecnologiasList">
+                            <li><img src="/assets/icons/html5-logo.png" alt="Logo de html 5" class="experiencia__tecnologiasImagen"></li>
+                            <li><img src="/assets/icons/css3-logo.png" alt="Logo de CSS" class="experiencia__tecnologiasImagen"></li>
+                            <li><img src="/assets/icons/js-logo.png" alt="Logo de JS" class="experiencia__tecnologiasImagen"></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="experiencia__content">
+                <img src="/assets/images/Captura-Generador.png" alt="Captura del generador" class="experiencia__imagen">
+                <div>
+                    <div class="experiencia__contenedor">
+                        <span class="experiencia__proyecto">Generador de Contraseñas</span>
+                        <span class="experiencia__origen">Proyecto personal</span>
+                        <button class="experiencia__boton" onclick="location.href='https://github.com/LNS45/PasswordGenerator'">Repositorio</button>
+                        <button class="experiencia__boton" onclick="location.href='https://lns45.github.io/PasswordGenerator/'">Ver demo</button>
+                    </div>
+                    <div class="experiencia__contenedor experiencia__tecnologias">
+                        <span class="experiencia__proyecto">Desarrollado con:</span>
+                        <ul class="experiencia__tecnologiasList">
+                            <li><img src="/assets/icons/html5-logo.png" alt="Logo de html 5" class="experiencia__tecnologiasImagen"></li>
+                            <li><img src="/assets/icons/css3-logo.png" alt="Logo de CSS" class="experiencia__tecnologiasImagen"></li>
+                            <li><img src="/assets/icons/js-logo.png" alt="Logo de JS" class="experiencia__tecnologiasImagen"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section> 
+    </main>
 
 </body>
 </html>

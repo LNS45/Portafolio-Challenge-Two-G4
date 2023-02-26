@@ -1,0 +1,11 @@
+.experiencia__boton{
+    width: 5rem;
+    margin-top: .9375rem;
+    background: var(--fondo-medio);
+    color: var(--fuente-clara);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-shadow: var(--sombra-resalto);
+    padding: 5px;
+}

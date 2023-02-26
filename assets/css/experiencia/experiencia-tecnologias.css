@@ -1,0 +1,4 @@
+.experiencia__tecnologias{
+    display: flex;
+    flex-direction: column;
+}

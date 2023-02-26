@@ -1,0 +1,6 @@
+.experiencia__origen{
+    margin-top: 5px;
+    font-size: 15px;
+    color: var(--fuente-resaltada);
+    text-shadow: var(--sombra-resalto);
+}

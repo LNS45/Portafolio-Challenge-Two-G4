@@ -1,0 +1,12 @@
+.formacion__item{
+    display: flex;
+    width: 400px;
+    height: 250px;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(0deg, #01393a,  #106c53, #1da36d);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+}

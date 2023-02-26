@@ -1,0 +1,7 @@
+.formacion__titulo{
+    color: var(--fuente-resaltada);
+    font-weight: 400;
+    font-size: 35px;
+    margin-top: 30px;
+    text-shadow: var(--sombra-resalto);
+}

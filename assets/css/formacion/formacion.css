@@ -1,0 +1,6 @@
+.formacion{
+    background-color: var(--fondo-verde-medio);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

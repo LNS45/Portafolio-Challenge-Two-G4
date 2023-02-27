@@ -1,0 +1,5 @@
+.contacto{
+    background: var(--fondo-verde-semioscuro);
+    display: flex;
+    justify-content: center;
+}

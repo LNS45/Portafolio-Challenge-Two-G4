@@ -1,7 +1,30 @@
 .contacto__input{
-    width: 200px;
+    width: 250px;
     height: 30px;
     border: none;
     margin-bottom: 10px;
-    border-radius: 5px;
+    background: none;
+    color: var(--fuente-clara);
+    font-size: 15px;
+    padding: 15px 10px 1px 5px;
+    display: block;
+    border-bottom: 1px solid white;
+    outline: none;
+    
+}
+.text__area{
+    height: 120px;
+    resize: none;
+}
+form label{
+    color: var(--fuente-clara);
+    position: absolute;
+    top: 20px;
+    pointer-events: none;
+    transition: 0.5s ease-in-out all;
+}
+
+.contacto__input:focus~label{
+    top: -5px;
+    color: var(--fuente-resaltada);
 }

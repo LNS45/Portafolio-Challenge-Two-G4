@@ -4,6 +4,6 @@
     justify-content: center;
     width: 270px;
     height: 270px;
-    background: url(/assets/images/fondo-circulo.gif);
+    background: url(assets/images/fondo-circulo.gif);
     border-radius: 100% ;
 }

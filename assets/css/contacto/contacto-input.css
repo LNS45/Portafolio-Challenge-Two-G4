@@ -10,8 +10,6 @@
     display: block;
     border-bottom: 1px solid white;
     outline: none;
-    
-    
 }
 .text__area{
     height: 120px;
@@ -38,7 +36,15 @@ form label{
 .contacto__input--error{
     color: rgb(217, 255, 0);
     display: none;
+    position: relative;
+    font-size: 10px;
+    margin-bottom: 10px;
 }
 .contacto__input--active{
     display: block;
+}
+.contacto__input--errorLabel{
+    top: 0px;
+    font-size: 12px;
+    color: var(--fuente-resaltada);
 }

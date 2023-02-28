@@ -1,0 +1,14 @@
+.contacto__boton{
+    border: none;
+    margin: 20px;
+    background-color: var(--fondo-semi_oscuro);
+    color: var(--fuente-clara);
+    text-shadow: var(--sombra-resalto);
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+.contacto__boton:hover{
+    transform: scale(1.1);
+}

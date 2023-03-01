@@ -30,11 +30,19 @@
     /*Sombras de texto*/
     --sombra-resalto: 2px 4px 3px rgba(0,0,0,0.3);
 }
-
+html{
+    scroll-behavior: smooth;
+}
 body{
     width: 100%;
     height: auto;
     font-family: var(--source);
+}
+section[id]{
+    scroll-margin-top: 2rem;
+}
+div[id]{
+    scroll-margin-top: 8rem;
 }
 main{
     box-shadow: rgba(50, 50, 93, 0.2) 0px 30px 60px 5px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px 2px inset;

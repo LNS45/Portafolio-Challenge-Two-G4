@@ -1,0 +1,7 @@
+.rotapie{
+    background-color: var(--fondo-verde-medio);
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

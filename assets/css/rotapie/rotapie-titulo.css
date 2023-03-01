@@ -1,0 +1,9 @@
+.rotapie__titulo{
+    color: var(--fuente-clara);
+    text-shadow: var(--sombra-resalto);
+    transition: .5s ease-in-out;
+}
+.rotapie__titulo:hover{
+    color: var(--fuente-resaltada);
+    transform: scale(1.2);
+}

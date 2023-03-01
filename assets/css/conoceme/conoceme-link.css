@@ -3,4 +3,14 @@
     align-items: center;
     color: var(--fuente-clara);
     text-decoration: none;
+    transition: .1s ease-in-out;
+    cursor: pointer;
+}
+.conoceme__link:hover{
+    transform: scale(1.05);
+    color: var(--fuente-resaltada);
+    
+}
+.conoceme__link:active{
+    transform: scale(.95);
 }

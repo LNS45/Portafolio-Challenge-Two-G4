@@ -4,4 +4,5 @@
     font-size: 35px;
     margin-top: 30px;
     text-shadow: var(--sombra-resalto);
+    animation: tituloResplandor 1.5s ease-in infinite;
 }

@@ -19,3 +19,17 @@
         opacity: 100%;
     }
 }
+
+@keyframes letraVeloz {
+    0% {
+        
+        transform: translateX(-0vw) skewX(0deg);
+    }
+    60% {
+        
+        transform: skewX(-15deg);
+    }
+    80% {
+        transform: skewX(10deg);
+    }
+}

@@ -1,5 +1,4 @@
 .hobbies__title{
-    color: var(--fuente-clara);
     text-shadow: var(--sombra-resalto);
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }

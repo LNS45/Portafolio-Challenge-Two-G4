@@ -9,4 +9,8 @@
     margin-top: 50px;
     margin-bottom: 50px;
     border-radius: 20px;
+    transition: .5s ease-in-out;
+}
+.formacion__item:hover{
+    transform: scale(.9);
 }

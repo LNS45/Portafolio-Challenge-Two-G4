@@ -2,7 +2,11 @@
     color: var(--fuente-clara);
     text-decoration: none;
     text-shadow: var(--sombra-resalto);
+    transition: .1s ease-in-out;
 }
 .resaltado{
+    color: var(--fuente-resaltada);
+}
+.menu__link:hover{
     color: var(--fuente-resaltada);
 }

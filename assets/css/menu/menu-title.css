@@ -6,4 +6,8 @@
     background-position-y: center;
     padding-left: 1.5rem;
     text-shadow: var(--sombra-resalto);
+    transition: 1s ease-in-out;
+}
+.menu__title:hover{
+    transform: scale(1.05);
 }

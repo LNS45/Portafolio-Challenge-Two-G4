@@ -3,4 +3,5 @@
     font-size: 40px;
     color: var(--fuente-clara);
     text-shadow: var(--sombra-resalto);
+    animation: letraVeloz 3s infinite ease-in-out;
 }

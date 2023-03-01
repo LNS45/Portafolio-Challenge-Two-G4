@@ -3,4 +3,9 @@
     border: 5px solid var(--fondo-medio);
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
+    transition: .5s ease-in-out;
+    margin-right: 40px;
+}
+.experiencia__imagen:hover{
+    transform: scale(1.05);
 }

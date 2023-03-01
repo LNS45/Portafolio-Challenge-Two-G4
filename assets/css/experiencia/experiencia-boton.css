@@ -8,4 +8,8 @@
     cursor: pointer;
     text-shadow: var(--sombra-resalto);
     padding: 5px;
+    transition: .5s ease-in-out;
+}
+.experiencia__boton:hover{
+    transform: scale(1.1);
 }

@@ -3,9 +3,9 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 200px;
-    height: 200px;
-    margin: 0 40px 30px 40px;
+    width: 12.5rem;
+    height: 12.5rem;
+    margin: 0 2.5rem 1.875rem 2.5rem;
     background: linear-gradient(180deg, #1f9b6a, #1f6b55, #173f41);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 15px;

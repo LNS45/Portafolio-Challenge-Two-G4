@@ -1,6 +1,6 @@
 .experiencia__proyecto{
-    margin-top: 5px;
-    font-size: 16px;
+    margin-top: .3125rem;
+    font-size: 1rem;
     color: var(--fuente-clara);
     text-shadow: var(--sombra-resalto);
 }

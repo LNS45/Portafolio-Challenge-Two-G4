@@ -1,7 +1,7 @@
 .conoceme__content{
     font-family: var(--source);
     color: white;
-    margin-top: 30px;
-    margin-right: 20px;
-    width: 50%;
+    margin-top: 1.875rem;
+    margin-right: 1.25rem;
+    width: 43.75rem;
 }

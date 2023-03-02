@@ -1,11 +1,11 @@
 .contacto__boton{
     border: none;
-    margin: 20px;
+    margin: 1.25rem;
     background-color: var(--fondo-semi_oscuro);
     color: var(--fuente-clara);
     text-shadow: var(--sombra-resalto);
-    border-radius: 10px;
-    padding: 10px;
+    border-radius: .625rem;
+    padding: .625rem;
     cursor: pointer;
     transition: .5s ease-in-out;
 }

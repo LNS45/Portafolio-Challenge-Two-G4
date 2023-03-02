@@ -1,8 +1,8 @@
 .formacion__titulo{
     color: var(--fuente-resaltada);
     font-weight: 400;
-    font-size: 35px;
-    margin-top: 30px;
+    font-size: 2.1875rem;
+    margin-top: 1.875rem;
     text-shadow: var(--sombra-resalto);
     animation: tituloResplandor 1.5s ease-in infinite;
 }

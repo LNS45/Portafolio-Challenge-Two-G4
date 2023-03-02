@@ -1,7 +1,7 @@
 .contacto__parrafo{
     color: white;
-    margin-top: 2px;
-    margin-bottom: 10px;
-    width: 300px;
-    font-size: 15px;
+    margin-top: .125rem;
+    margin-bottom: .625rem;
+    width: 18.75rem;
+    font-size: .9375rem;
 }

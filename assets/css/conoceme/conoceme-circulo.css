@@ -2,8 +2,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 270px;
-    height: 270px;
+    width: 16.875rem;
+    height: 16.875rem;
     background: url(../../images/fondo-circulo.gif);
     border-radius: 100% ;
 }

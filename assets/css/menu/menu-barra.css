@@ -1,8 +1,8 @@
 .menu__barra::before{
     content: "";
-    height: 2px;
+    height: .125rem;
     width: 0%;
-    bottom: -5px;
+    bottom: -0.3125rem;
     position: absolute;
     background: var(--fondo-verde-medio-claro);
     transition: .3s ease width;

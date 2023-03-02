@@ -2,7 +2,7 @@
     color: var(--fuente-clara);
     background: url(../../icons/icons8-pokeball-32.png);
     background-repeat: no-repeat;
-    background-size: 20px;
+    background-size: 1.25rem;
     background-position-y: center;
     padding-left: 1.5rem;
     text-shadow: var(--sombra-resalto);

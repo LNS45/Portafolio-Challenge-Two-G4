@@ -2,11 +2,11 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 180px;
+    width: 11.25rem;
     flex-wrap: wrap;
-    margin: 15px;
+    margin: .9375rem;
     background: linear-gradient(180deg, #1f9b6a, #1f6b55, #173f41);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    border-radius: 10px;
-    padding: 10px;
+    border-radius: .625rem;
+    padding: .625rem;
 }

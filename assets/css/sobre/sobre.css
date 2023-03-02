@@ -1,6 +1,6 @@
 .sobre{
     width: 100%;
-    height: 250px;
+    height: 15.625rem;
     background: url(../../images/animated-text-fill.png) repeat-y;
     background-size: cover;
 	-webkit-animation: aitf 200s linear infinite;

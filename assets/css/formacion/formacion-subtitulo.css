@@ -1,6 +1,6 @@
 .formacion__subtitulo{
     font-size: 1.2rem;
-    margin-top: 30px;
+    margin-top: 1.875rem;
     color: var(--fuente-clara);
     text-shadow: var(--sombra-resalto);
 }

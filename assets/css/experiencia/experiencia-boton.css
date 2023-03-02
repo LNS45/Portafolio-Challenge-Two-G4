@@ -4,10 +4,10 @@
     background: var(--fondo-medio);
     color: var(--fuente-clara);
     border: none;
-    border-radius: 10px;
+    border-radius: .625rem;
     cursor: pointer;
     text-shadow: var(--sombra-resalto);
-    padding: 5px;
+    padding: .3125rem;
     transition: .5s ease-in-out;
 }
 .experiencia__boton:hover{

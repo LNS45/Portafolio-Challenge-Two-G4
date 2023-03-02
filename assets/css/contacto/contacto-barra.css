@@ -5,9 +5,9 @@
 }
 .contacto__barra::before{
     content: "";
-    height: 2px;
+    height: .125rem;
     width: 0%;
-    bottom: 10px;
+    bottom: .625rem;
     position: absolute;
     background: var(--fondo-verde-medio-claro);
     transition: .3s ease width;

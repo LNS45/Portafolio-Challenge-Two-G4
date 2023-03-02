@@ -4,3 +4,9 @@
     width: 100%;
     flex-wrap: wrap;
 }
+@media screen and (max-width: 322px) {
+    .formacion__list{
+        flex-direction: column;
+        align-items: center;
+    }
+}

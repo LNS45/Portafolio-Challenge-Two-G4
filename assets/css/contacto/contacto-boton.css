@@ -8,6 +8,7 @@
     padding: .625rem;
     cursor: pointer;
     transition: .5s ease-in-out;
+    font-size: 1.25rem;
 }
 .contacto__boton:hover{
     transform: scale(1.1);

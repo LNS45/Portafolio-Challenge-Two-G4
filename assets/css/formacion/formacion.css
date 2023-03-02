@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: url(../../images/animated-text-fill.png) ;
+    background: var(--fondo-verde-semioscuro);
     background-size:900%;
 	-webkit-animation: aitf 300s linear infinite;
     border-top: 2px solid var(--fondo-medio);

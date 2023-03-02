@@ -2,4 +2,6 @@
     margin-top: .9375rem;
     color: var(--fuente-resaltada);
     text-shadow: var(--sombra-resalto);
+    font-size: .8rem;
+    text-align: center;
 }

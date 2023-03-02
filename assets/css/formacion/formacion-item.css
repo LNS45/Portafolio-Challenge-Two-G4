@@ -1,8 +1,8 @@
 .formacion__item{
     display: flex;
-    width: 25rem;
-    height: 15.625rem;
+    width: 22rem;
     flex-direction: column;
+    height: 15.625rem;
     align-items: center;
     background: linear-gradient(0deg, #01393a,  #106c53, #1da36d);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -13,4 +13,28 @@
 }
 .formacion__item:hover{
     transform: scale(.9);
+}
+@media screen and (max-width: 878px) {
+    .formacion__item{
+        width: 300px;
+        height: 16.625rem;
+    }
+}
+@media screen and (max-width: 636px) {
+    .formacion__item{
+        width: 165px;
+        height: 16.625rem;
+    }
+}
+@media screen and (max-width: 500px) {
+    .formacion__item{
+        width: 150px;
+        height: 16.625rem;
+    }
+}
+@media screen and (max-width: 322px) {
+    .formacion__item{
+        width: 120px;
+        height: 16.625rem;
+    }
 }

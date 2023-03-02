@@ -3,3 +3,22 @@
     width: 40rem;
     justify-content: space-between;
 }
+
+/*Mobile Responsive*/
+
+@media screen and (max-width: 501px) {
+    .menu{
+        font-size: 5px;
+        align-items: center;
+    }
+    .menu__list{
+        width:auto;
+    }
+    .menu__item{
+        display: none;
+    }
+    .menu__item:nth-child(6){
+        display: block;
+        align-self: center;
+    }
+}

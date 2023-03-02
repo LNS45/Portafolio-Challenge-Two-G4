@@ -2,4 +2,6 @@
     background: var(--fondo-verde-semioscuro);
     display: flex;
     justify-content: center;
+    border-top: 2px solid var(--fondo-medio);
+    border-bottom: 2px solid var(--fondo-medio);
 }

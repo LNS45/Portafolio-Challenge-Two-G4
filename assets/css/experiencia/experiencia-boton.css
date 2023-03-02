@@ -1,5 +1,6 @@
 .experiencia__boton{
     width: 5rem;
+    font-size: .75rem;
     margin-top: .9375rem;
     background: var(--fondo-medio);
     color: var(--fuente-clara);

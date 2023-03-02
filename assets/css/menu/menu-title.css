@@ -11,3 +11,16 @@
 .menu__title:hover{
     transform: scale(1.05);
 }
+
+@media screen and (max-width: 501px) {
+    .menu__title{
+        background-size: .8rem;
+        background-position-y:initial;
+    }
+}
+@media screen and (max-width: 322px) {
+    .menu__title{
+        background-size: .8rem;
+        background-position-y:center;
+    }
+}

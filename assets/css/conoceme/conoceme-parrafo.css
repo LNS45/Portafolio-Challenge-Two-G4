@@ -2,3 +2,8 @@
     font-size: 1.25rem;
     margin-bottom: 1.875rem;
 }
+@media screen and (max-width: 500px) {
+    .conoceme__parrafo{
+        font-size: 1.8rem;
+    }
+}

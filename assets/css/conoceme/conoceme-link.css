@@ -14,3 +14,8 @@
 .conoceme__link:active{
     transform: scale(.95);
 }
+@media screen and (max-width: 500px) {
+    .conoceme__link{
+        font-size: 1.5rem;
+    }
+}

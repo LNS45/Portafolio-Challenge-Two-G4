@@ -12,10 +12,11 @@
     transform: scale(1.05);
 }
 
-@media screen and (max-width: 501px) {
+@media screen and (max-width: 500px) {
     .menu__title{
-        background-size: .8rem;
+        background-size: 1.1rem;
         background-position-y:initial;
+        font-size: 1.2rem;
     }
 }
 @media screen and (max-width: 322px) {

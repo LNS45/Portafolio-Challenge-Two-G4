@@ -13,3 +13,9 @@
 .contacto__boton:hover{
     transform: scale(1.1);
 }
+@media screen and (max-width: 500px) {
+    .contacto__boton{
+        position: absolute;
+        top: 92%;
+    }
+}

@@ -14,3 +14,10 @@
 .experiencia__boton:hover{
     transform: scale(1.1);
 }
+@media screen and (max-width: 500px) {
+    .experiencia__boton{
+        width: 8rem;
+        height: 2rem;
+        font-size: 1.2rem;
+    }
+}

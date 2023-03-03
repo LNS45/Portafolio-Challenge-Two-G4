@@ -8,4 +8,8 @@
     border-top: 2px solid var(--fondo-medio);
     border-bottom: 2px solid var(--fondo-medio);
 }
-
+@media screen and (max-width: 500px) {
+    .conoceme{
+        height: 30rem;
+    }
+}

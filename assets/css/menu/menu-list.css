@@ -6,7 +6,7 @@
 
 /*Mobile Responsive*/
 
-@media screen and (max-width: 501px) {
+@media screen and (max-width: 500px) {
     .menu{
         font-size: 5px;
         align-items: center;
@@ -20,5 +20,6 @@
     .menu__item:nth-child(6){
         display: block;
         align-self: center;
+        font-size: 1.1rem;
     }
 }

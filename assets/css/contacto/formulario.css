@@ -8,3 +8,10 @@
     margin: 1.875rem;
     box-shadow: rgba(0, 0, 0, .5) 0px 5px 15px;
 }
+@media screen and (max-width: 500px) {
+    .formulario{
+        width: 60rem;
+        height: 68rem;
+        position: relative;
+    }
+}

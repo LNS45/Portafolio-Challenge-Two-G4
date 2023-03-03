@@ -6,3 +6,8 @@
 .experiencia__tecnologiasImagen:hover{
     transform: scale(1.2);
 }
+@media screen and (max-width: 500px) {
+    .experiencia__tecnologiasImagen{
+        width: 5rem;
+    }
+}

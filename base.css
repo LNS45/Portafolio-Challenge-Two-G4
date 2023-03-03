@@ -85,12 +85,12 @@ main{
         font-size: 8px;
     }
 }
+/*Mobile Responsive*/
 @media screen and (max-width: 500px) {
     html{
         font-size: 6px;
     }
 }
-/*Mobile Responsive*/
 @media screen and (max-width: 386px) {
     html{
         font-size: 5px;

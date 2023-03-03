@@ -3,3 +3,8 @@
     align-items: center;
     margin-bottom: 6.25rem;
 }
+@media screen and (max-width: 500px) {
+    .experiencia__content{
+        flex-direction: column;
+    }
+}

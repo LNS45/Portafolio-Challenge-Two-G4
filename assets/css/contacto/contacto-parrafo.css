@@ -5,3 +5,9 @@
     width: 18.75rem;
     font-size: .9375rem;
 }
+@media screen and (max-width: 500px) {
+    .contacto__parrafo{
+        width: 35rem;
+        font-size: 1.5rem;
+    }
+}

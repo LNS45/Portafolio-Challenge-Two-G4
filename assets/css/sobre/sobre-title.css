@@ -3,3 +3,9 @@
     color: var(--fuente-resaltada);
     text-shadow: var(--sombra-resalto);
 }
+@media screen and (max-width: 500px) {
+    .sobre__title{
+        font-size: 3rem;
+        margin-bottom: 10px;
+    }
+}

@@ -5,3 +5,8 @@
     text-shadow: var(--sombra-resalto);
     animation: letraVeloz 3s infinite ease-in-out;
 }
+@media screen and (max-width: 500px) {
+    .experiencia__titulo{
+        font-size: 2.5rem;
+    }
+}

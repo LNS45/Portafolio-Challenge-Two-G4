@@ -1,0 +1,11 @@
+.experiencia__flex{
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 500px) {
+    .experiencia__flex{
+        flex-direction: row;
+        margin-top: 10px;
+    }
+}

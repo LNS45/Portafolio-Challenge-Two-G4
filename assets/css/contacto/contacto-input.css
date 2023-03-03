@@ -48,3 +48,29 @@ form label{
     font-size: .75rem;
     color: var(--fuente-resaltada);
 }
+@media screen and (max-width: 500px) {
+    .contacto__input{
+        width: 30rem;
+        height: 5rem;
+        font-size: 2rem;
+    }
+    .contacto__input:focus~label{
+        font-size: 2rem;
+    }
+    .contacto__input:valid~label{
+        font-size: 1.5rem;
+    }
+    form label{
+        font-size: 1.5rem;
+    }
+    .contacto__input--error{
+        font-size: .8rem;
+    }
+    .text__area{
+        margin-top: 8px;
+        height: 18rem;
+    }
+    .contacto__input--errorLabel{
+        font-size: 1.5rem;
+    }
+}

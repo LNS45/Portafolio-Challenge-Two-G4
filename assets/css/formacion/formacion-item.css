@@ -28,13 +28,7 @@
 }
 @media screen and (max-width: 500px) {
     .formacion__item{
-        width: 150px;
-        height: 16.625rem;
-    }
-}
-@media screen and (max-width: 322px) {
-    .formacion__item{
-        width: 120px;
-        height: 16.625rem;
+        width: 165px;
+        height: 20rem;
     }
 }

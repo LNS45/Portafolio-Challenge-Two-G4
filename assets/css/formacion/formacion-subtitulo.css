@@ -4,3 +4,8 @@
     color: var(--fuente-clara);
     text-shadow: var(--sombra-resalto);
 }
+@media screen and (max-width: 500px) {
+    .formacion__subtitulo{
+        font-size: 1.5rem;
+    }
+}

@@ -4,3 +4,10 @@
     color: var(--fuente-resaltada);
     text-shadow: var(--sombra-resalto);
 }
+@media screen and (max-width: 500px) {
+    .experiencia__origen{
+        font-size: 1.5rem;
+        width: 20rem;
+        text-align: center;
+    }
+}

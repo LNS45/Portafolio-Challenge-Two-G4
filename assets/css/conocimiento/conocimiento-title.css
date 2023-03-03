@@ -7,3 +7,8 @@
     animation: letraVeloz 3s infinite ease-in-out;
     align-self: center;
 }
+@media screen and (max-width: 500px) {
+    .conocimiento__title{
+        font-size: 3rem;
+    }
+}

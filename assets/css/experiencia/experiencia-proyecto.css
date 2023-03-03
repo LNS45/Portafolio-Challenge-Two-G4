@@ -4,3 +4,9 @@
     color: var(--fuente-clara);
     text-shadow: var(--sombra-resalto);
 }
+@media screen and (max-width: 500px) {
+    .experiencia__proyecto{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+}

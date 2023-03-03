@@ -6,3 +6,8 @@
     text-shadow: var(--sombra-resalto);
     animation: tituloResplandor 1.5s ease-in infinite;
 }
+@media screen and (max-width: 500px) {
+    .formacion__titulo{
+        font-size: 4rem;
+    }
+}

@@ -11,3 +11,11 @@
     padding: .625rem;
 }
 
+@media screen and (max-width: 500px) {
+    .experiencia__contenedor{
+        margin-top: 10px;
+        flex-direction: row;
+        width: 20rem;
+        height: 10rem;
+    }
+}
